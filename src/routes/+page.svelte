@@ -21,6 +21,7 @@
 
 <main>
 	<TodoForm {addTodo} />
+	<span>Total todos: {todos.length}</span>
 	<ul>
 		{#each todos as todo, index}
 			<div>
